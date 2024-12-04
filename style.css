@@ -20,6 +20,10 @@ body{
     margin-bottom:25px;
 }
 
+.welcome{
+    color:#C24B1C;
+}
+
 .footer-container {
     display:flex;
     align-items:center;
@@ -184,6 +188,10 @@ h3{
     padding:1%;
 }
 
+#middle-title{
+    color:#C24B1C;
+}
+
 label{
     display:inline-block;
     width:250px;
@@ -200,4 +208,8 @@ textarea{
 
 .error{
     color:red;
+}
+
+label{
+    color:#C24B1C;
 }

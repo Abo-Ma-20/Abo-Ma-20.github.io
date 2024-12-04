@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- Add icon library ref: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+    <!-- Add icon library ref: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp used for the footer -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--font ref: https://www.w3schools.com/howto/howto_google_fonts.asp -->
     <link href='https://fonts.googleapis.com/css?family=Sofia Sans' rel='stylesheet'>
@@ -29,7 +29,6 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <!--reference for why ml-auto didn't work and how to fix https://utkarshgupta2200.medium.com/ml-auto-margin-left-in-bootstrap-5-not-working-6645876ec942 -->
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                     </li>
@@ -46,30 +45,29 @@
             </div>
         </div>
     </nav>
-    <!--Main container for the apartments, containes 4 boxes each box has 4 other boxes -->
+    <!--Main container for the apartments, containes 4 boxes each box has 4 other boxes [flex] -->
     <div class="main-container">
         <!--main-row 1-->
         <div class="main-row">
             <!--Col 1 of main-row 1 - contains 4 boxes-->
             <div class="column">
-                <!-- <h2 class="h2 apartment-title">This is a title</h2> -->
                 <!--row 1 of column 1 of main-row 1 [has 2 boxes] -->
                 <div class="sub-row">
                     <!--reference of all images and text in this box: https://shorturl.at/InZ5i -->
                     <div class="sub-col">
-                        <img class="apartment-img" src="../apartments/images/Cairo_1.jpg" alt="">
+                        <img class="apartment-img" src="../apartments/images/Cairo_1.jpg" alt="living room view">
                     </div>
                     <div class="sub-col">
-                        <img class="apartment-img" src="../apartments/images/Cairo_2.jpg" alt="">
+                        <img class="apartment-img" src="../apartments/images/Cairo_2.jpg" alt="bedroom">
                     </div>
                 </div>
                 <!--row 2 of column 1 [has 2 boxes] -->
                 <div class="sub-row">
                     <div class="sub-col">
-                        <img class="apartment-img" src="../apartments/images/Cairo_3.jpg" alt="">
+                        <img class="apartment-img" src="../apartments/images/Cairo_3.jpg" alt="living room with sofa">
                     </div>
                     <div class="sub-col">
-                        <img class="apartment-img" src="../apartments/images/Cairo_4.jpg" alt="">
+                        <img class="apartment-img" src="../apartments/images/Cairo_4.jpg" alt="living room with TV">
                     </div>
                 </div>
                 <div class="details">
@@ -94,19 +92,19 @@
                 <div class="sub-row">
                     <!--reference of all images and text in this box: https://shorturl.at/uYKOH -->
                     <div class="sub-col">
-                        <img class="apartment-img" src="../apartments/images/Giza_1.jpg" alt="">
+                        <img class="apartment-img" src="../apartments/images/Giza_1.jpg" alt="living room with pyramids view">
                     </div>
                     <div class="sub-col">
-                        <img class="apartment-img" src="../apartments/images/Giza_2.jpg" alt="">
+                        <img class="apartment-img" src="../apartments/images/Giza_2.jpg" alt="bedroom">
                     </div>
                 </div>
                 <!--row 2 of column 2 [has 2 boxes] -->
                 <div class="sub-row">
                     <div class="sub-col">
-                        <img class="apartment-img" src="../apartments/images/Giza_3.jpg" alt="">
+                        <img class="apartment-img" src="../apartments/images/Giza_3.jpg" alt="living room with sofa and pyramids view">
                     </div>
                     <div class="sub-col">
-                        <img class="apartment-img" src="../apartments/images/Giza_4.jpg" alt="">
+                        <img class="apartment-img" src="../apartments/images/Giza_4.jpg" alt="kitchen room">
                     </div>
                 </div>
                 <div class="details">
@@ -120,6 +118,7 @@
                                 est laborum.</span></span></p>
                 </div>
                 <div class="btns-container">
+                    <!--I created the buttons myself but used few bootstrap classes to make them look better-->
                     <button class="btn btn-primary btn-sm readMore" type="button">Read more</button>
                     <button class="btn btn-primary btn-sm inquire">Inquire</button>
                 </div>
@@ -133,19 +132,19 @@
                 <div class="sub-row">
                     <!--reference of all images and text in this box: https://shorturl.at/plnd2 -->
                     <div class="sub-col">
-                        <img class="apartment-img" src="./images/luxor_1.jpg" alt="">
+                        <img class="apartment-img" src="./images/luxor_1.jpg" alt="front of building with pool view">
                     </div>
                     <div class="sub-col">
-                        <img class="apartment-img" src="./images/luxor_2.jpg" alt="">
+                        <img class="apartment-img" src="./images/luxor_2.jpg" alt="living room with sofa">
                     </div>
                 </div>
                 <!--row 2 of column 1 of main-row 2 [has 2 boxes] -->
                 <div class="sub-row">
                     <div class="sub-col">
-                        <img class="apartment-img" src="./images/luxor_3.jpg" alt="">
+                        <img class="apartment-img" src="./images/luxor_3.jpg" alt="kitchen">
                     </div>
                     <div class="sub-col">
-                        <img class="apartment-img" src="./images/luxor_4.jpg" alt="">
+                        <img class="apartment-img" src="./images/luxor_4.jpg" alt="roof view with sky view and gas ballon">
                     </div>
                 </div>
                 <div class="details">
@@ -169,19 +168,19 @@
                 <div class="sub-row">
                     <!--reference of all images and text in this box: https://shorturl.at/FP8m1 -->
                     <div class="sub-col">
-                        <img class="apartment-img" src="./images/aswan_1.jpg" alt="">
+                        <img class="apartment-img" src="./images/aswan_1.jpg" alt="living room with TV">
                     </div>
                     <div class="sub-col">
-                        <img class="apartment-img" src="./images/aswan_2.jpg" alt="">
+                        <img class="apartment-img" src="./images/aswan_2.jpg" alt="bedroom with 2 beds">
                     </div>
                 </div>
                 <!--row 2 of column 2 of main-row 2 [has 2 boxes] -->
                 <div class="sub-row">
                     <div class="sub-col">
-                        <img class="apartment-img" src="./images/aswan_3.jpg" alt="">
+                        <img class="apartment-img" src="./images/aswan_3.jpg" alt="toilet">
                     </div>
                     <div class="sub-col">
-                        <img class="apartment-img" src="./images/aswan_4.jpg" alt="">
+                        <img class="apartment-img" src="./images/aswan_4.jpg" alt="path area in the toilt">
                     </div>
                 </div>
                 <div class="details">
